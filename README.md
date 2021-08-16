@@ -1,2 +1,2 @@
 # blessedshruman.github.io
-my site
+site
