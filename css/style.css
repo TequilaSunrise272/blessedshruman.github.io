@@ -1,0 +1,556 @@
+@import 'fonts.css';
+
+body {
+    background-color: #D9F4FD;
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x:hidden;
+
+}
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu-bar {
+    background-color:#D9F4FD;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom: 3px solid #5B76FF;
+}
+
+.menu__item {
+    color: #000000;
+    margin-left: 10vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    margin-left:30px;
+}
+
+.logo {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font: bold;
+    font-size: 18px;
+    display: block;
+    float: left;
+}
+
+.name {
+    padding-top:18px;
+    padding-left:80px;
+}
+
+.number {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    margin-left:8vw;
+}
+
+.undernumber {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 9px;
+    text-align:center;
+    margin-left:8vw;
+}
+
+
+.navbar-light .navbar-toggler {
+    margin-left:35vw;
+}
+.head__text {
+    margin-top:144px;
+}
+.head__text1{
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:center;
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.head__text1.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.head__text2 {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:center;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.bluebutton {
+    margin-top: 25px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    background: #5B76FF;
+    border: 0px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:429px;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.bluebutton:hover {
+    background: linear-gradient(to right, #025dbb, #0480fd);
+}
+
+.learnmore {
+    text-align: center;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+
+.head__text2.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.bluebutton.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.learnmore.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+.steps__text {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:center;
+    margin-top:469px;
+}
+
+.whitebox1{
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:30px;
+    width:259px;
+    height:295px;
+    margin-top: 55px;
+    margin-left:80px;
+    opacity: 0;
+    transform: translate(-120%, 0px);
+    transition: all 0.8s ease 0s;
+}
+.whitebox2{
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:30px;
+    width:259px;
+    height:295px;
+    margin-top: 55px;
+    margin-left:80px;
+    opacity: 0;
+    transform: translate(-220%, 0px);
+    transition: all 0.8s ease 0s;
+}
+.whitebox3{
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:30px;
+    width:259px;
+    height:295px;
+    margin-top: 55px;
+    margin-left:80px;
+    opacity: 0;
+    transform: translate(-320%, 0px);
+    transition: all 0.8s ease 0s;
+}
+
+.whitebox1.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.whitebox2.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.whitebox3.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+.whitebox__text {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.whitebox__img {
+    width:200px;
+    height: 190px;
+}
+
+.arrow {
+    font-size:70px;
+    margin-left:70px;
+    margin-top:130px;
+}
+
+.shop__text {
+    margin-top:220px;
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:center;
+}
+
+.shop__img {
+    margin-top:-15px;
+    border: none;
+    background-color:#ffffff;
+}
+
+.shop__img:hover {
+    border: 3px solid #ffffff;
+}
+
+.shopbox {
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+    width:373px;
+    height:520px;
+    margin-top: 55px;
+    margin-left:30px;
+}
+
+.shop__name {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-align:center;
+    margin-top:-40px;
+}
+
+.shop__priceold {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.shop__pricenew {
+    color: #ff0000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    text-align:center;
+}
+
+.shop__button {
+    margin-top: 25px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    background: #5B76FF;
+    border: 0px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.shop__button:hover {
+    background: linear-gradient(to right, #025dbb, #0480fd);
+}
+.shopbutton {
+    text-align: center;
+}
+
+
+.endbox1.animated {
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+    width:584px;
+    height:470px;
+    margin-top: 215px;
+    margin-left:30px;
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+
+.endbox1.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+.endbox2.animated {
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+    width:414px;
+    height:470px;
+    margin-top: 215px;
+    margin-left:95px;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.endbox2.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+
+
+
+
+.endtext {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:left;
+    margin-top:32px;
+}
+
+.lendtext {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:left;
+    margin-top:12px;
+}
+
+.endtext__blue {
+    color: #5B76FF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:left;
+}
+
+.lendtext__blue {
+    color: #5B76FF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 34px;
+    text-align:left;
+}
+
+.endicon {
+    font-size:60px;
+}
+
+.end__img {
+    background-color: #D9F4FD;
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top:170px;
+    width:auto;
+    height:25.3125vw;
+}
+
+
+.modaltext {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top:12px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+.arrow {
+    opacity:0;
+    size:0px;
+}
+
+
+.whitebox1 {
+    justify-self: center;
+    margin-left:10vw;
+}
+.whitebox2 {
+    margin-top:-160px;
+    justify-self: center;
+    margin-left:10vw;
+}
+.whitebox3 {
+    margin-top:-160px;
+    justify-self: center;
+    margin-left:10vw;
+}
+
+.endbox1.animated{
+    width:84vw;
+    height:329px;
+    justify-self: center;
+    margin-left:5vw;
+}
+
+.endbox2.animated {
+    width:84vw;
+    height:329px;
+    justify-self: center;
+    margin-left:5vw;
+    margin-top:10vw;
+}
+
+
+.endtext {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top:18px;
+}
+
+.lendtext {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top:6px;
+}
+
+.endtext__blue {
+    color: #5B76FF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+}
+
+.lendtext__blue {
+    color: #5B76FF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:left;
+}
+
+
+.number {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    margin-left:16vw;
+}
+
+.undernumber {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 9px;
+    text-align:center;
+    margin-left:-10vw;
+}
+
+
+.shopbox {
+    background: #ffffff;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius:15px;
+    width:82vw;
+    height:520px;
+    margin-top: 55px;
+    margin-left:5vw;
+}
+
+.shop__name {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align:center;
+    margin-top:-40px;
+}
+
+.shop__priceold {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.shop__pricenew {
+    color: #ff0000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    text-align:center;
+}
+
+.shop__button {
+    margin-top: 25px;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    background: #5B76FF;
+    border: 0px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+.steps__text {
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    text-align:center;
+    margin-top:200px;
+}
+}
